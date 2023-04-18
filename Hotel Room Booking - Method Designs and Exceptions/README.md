@@ -1,0 +1,7 @@
+## Summary 
+
+This assignment consists of two parts, each with its own set of requirements. The first part involves creating a class to represent different types of rooms in a hotel booking system. The Room class should have a constructor that takes a RoomType enum and a double representing the price of the room. The Room class should also have methods to check if the room is available, book the room, and get the number of guests currently assigned to the room. JUnit tests and a UML class diagram should also be included.
+
+The second part involves designing and implementing code for managing package lockers, including classes for Recipient, MailItem, and Locker. Recipient and MailItem classes should have constructors that take appropriate parameters, and the Locker class should have a constructor that takes maximum width, height, and depth as parameters. The Locker class should also have methods to add and pickup mail items, with appropriate exception handling and validation checks. JUnit tests and a UML class diagram should also be included.
+
+The main takeaways from this assignment are designing class hierarchies, creating and using Java enums and packages, implementing exception handling, and writing JUnit tests for classes. This assignment also involves practicing basic class composition and writing getter methods, which are essential skills for object-oriented programming. Additionally, creating UML class diagrams can help in visualizing the relationships between classes and understanding the overall structure of a program.
