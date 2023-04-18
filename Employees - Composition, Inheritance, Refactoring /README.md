@@ -1,9 +1,7 @@
 ## Summary 
 
-This assignment involves implementing an Employee class that represents both hourly and salaried employees, and a Paycheck class that calculates employee pay for a pay period. Employees are differentiated based on their pay rate (hourly or yearly) and their pay interval. The Paycheck class implements the IPaycheck protocol and has two concrete implementations: HourlyPaycheck and SalariedPaycheck.
+This project involves implementing an Employee class and a Paycheck class to calculate employee pay for a pay period. The Employee class represents both hourly and salaried employees, differentiated by their pay rate and interval. The Paycheck class calculates the total pay, pay after taxes, and pay rate, and implements the IPaycheck protocol with two concrete implementations: HourlyPaycheck and SalariedPaycheck.
 
-The Employee class is implemented with two constructors: one for salaried employees and another for hourly employees. The Employee class has a method to return a Paycheck instance and a method to indicate if the employee is a manager. The Paycheck class implements the IPaycheck protocol, with methods to return the total pay, pay after taxes, and pay rate.
+The Employee class has two constructors and methods to return a Paycheck instance and indicate if the employee is a manager. The Paycheck classes have suitable toString() methods and the HourlyPaycheck has additional features such as adding or resetting hours worked and returning the number of hours an employee worked for the current paycheck.
 
-There are also two concrete Paycheck classes: HourlyPaycheck and SalariedPaycheck. HourlyPaycheck has additional features, such as the ability to add or reset hours worked and return the number of hours an employee worked for the current paycheck. The Paycheck classes should have suitable toString() methods to represent the employee's name, ID, and payment after taxes.
-
-Overall, this assignment provides practice with composition, delegation, and inheritance, as well as working with interfaces and implementing different classes to represent different types of employees and paychecks.
+This project provides practice with composition, delegation, and inheritance, as well as working with interfaces and implementing different classes to represent different types of employees and paychecks.
